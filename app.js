@@ -1,11 +1,10 @@
 const addBox = document.getElementById( 'infinite-box' );
 const classes = ['box', 'box2','box3','box4','box5'];
 
-randomizeClass = Math.floor(Math.random() * classes.length);
     
-
 let addMore = function() {
-    for ( let i = 0 ; i < 5 ; i++ ){
+    randomizeClass = Math.floor(Math.random() * classes.length);
+    for ( let i = 0 ; i < 1 ; i++ ){
         let box = document.createElement('div');
         box.classList.add(classes[randomizeClass]);
         addBox.appendChild(box);
