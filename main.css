@@ -16,9 +16,41 @@
 
 .box {
   width: 80%;
-  height: 20px;
+  height: 60px;
   margin: 0 auto;
   margin-top: 5px;
   background-color: red;
+  border-radius: 20px;
+}
+.box2 {
+  width: 80%;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 5px;
+  background-color: blue;
+  border-radius: 20px;
+}
+.box3 {
+  width: 80%;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 5px;
+  background-color: yellow;
+  border-radius: 20px;
+}
+.box4 {
+  width: 80%;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 5px;
+  background-color: green;
+  border-radius: 20px;
+}
+.box5 {
+  width: 80%;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 5px;
+  background-color: burlywood;
   border-radius: 20px;
 }
